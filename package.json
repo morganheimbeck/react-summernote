@@ -2,41 +2,43 @@
   "name": "react-summernote",
   "version": "0.0.1",
   "description": "React wrapped Summernote",
-  "main": "src/React-Summernote.js",
+  "main": "example.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
     "reactjs",
-    "summer-note"
+    "summer-note",
+    "summernote"
   ],
   "author": "Xitstrategies",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "classname": "0.0.0",
     "jquery": "^2.2.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "steal": "^0.15.3",
     "summernote": "^0.8.0"
   },
+  "system": {
+    "transpiler": "babel",
+    "babelOptions": {
+      "blacklist": []
+    }
+  },
   "devDependencies": {
-    "babel-core": "^6.5.1",
-    "babel-loader": "^6.2.2",
-    "babel-preset-es2015": "^6.5.0",
-    "babel-preset-react": "^6.5.0",
+    "babel-core": "^6.7.4",
+    "babel-eslint": "^4.1.8",
     "can-fixture": "^0.1.1",
     "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-buster": "^1.0.0",
-    "gulp-template": "^3.1.0",
-    "gulp-util": "^3.0.7",
-    "gulp-webpack": "^1.5.0",
+    "eslint": "^2.0.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-reactjs": "^1.0.0",
+    "eslint-plugin-objects": "^1.1.1",
+    "eslint-plugin-react": "^3.16.1",
     "mocha": "^2.4.5",
-    "react-component-gulp-tasks": "^0.7.7",
-    "react-hot-loader": "^1.3.0",
-    "webpack": "^1.12.13",
-    "webpack-dev-server": "^1.14.1"
+    "steal-jsx": "0.0.0"
   }
 }
